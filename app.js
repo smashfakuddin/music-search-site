@@ -8,7 +8,7 @@ const searchSongs = () => {
 
 const displaySongs = songs => {
     const songContainer = document.getElementById('song-container');
-    console.log(songs);
+   
 
     songs.forEach(song => {
         const songDiv = document.createElement('div');
